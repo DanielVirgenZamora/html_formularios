@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea HTML_Formularios de Daniel Zamora</title>
+</head>
+<body>
+    <h4>continuacion del cuestionario</h4>
+    <form action="">
+        <label for="data">Introduzca la fecha en la que hace este cuestionario</label>
+        <input type="date" name="fecha" min="2000-01-01" max="2100-01-01" step="1" id="">
+    <p></p>
+<label for="file">Seleccione su archivo</label>
+        <input type="file" name="ficheros" id="">
+    <p></p>
+        <label for="">Seleccione su probesador</label> 
+        <input type="radio" name="procesador" value="procesadoramd" id="">AMD
+        <input type="radio" name="procesador" value="procesadorintel_i5" id="">Intel core I5
+        <input type="radio" name="procesador" value="procesadorintel_i7" id="">Intel core I7
+
+        <p>Introduzca su nombre completo</p>
+        <input type="text" name="nombre" placeholder="Nombre" id="">
+        <input type="text" name="apellido" placeholder="Apellido" id="">
+        <p>Introduzca su direccion</p>
+        <input type="text" name="direccion" placeholder="Direccion" id="">
+        <p>Seleccione el color de su equipo</p>
+        <input type="color" name="color" id="">
+        <p></p>
+        <textarea name="texto" id="" cols="59" rows="6">Escriba aqui sus comentarios</textarea>
+        <p>Introduzca la fecha en la que envia sus comentarios</p>
+        <input type="date" name="fecha" min="2000-01-01" max="2100-01-01" step="1" id="">
+        <p>seleccione su idioma</p>
+        <select name="idioma" id="">
+            <option value="ingles">Inglés</option>
+            <option value="aleman">Alemán</option>
+            <option value="frances">Francés</option>
+        </select>
+        <p>indique la hora en la que puede recibir su paquete</p>
+        <input type="time" name="hora" min="00:00" max="24:00" step="3600" id="">
+        <p>Suba su archivo</p>
+        <input type="file" name="archivo" id="">
+        <p>Usted es:</p>
+        <input type="checkbox" name="sexo" value="sexohombre" id="">Hombre
+        <input type="checkbox" name="sexo" value="sexomujer" id="">Mujer
+        <p>Gracis por llenar este cuestionario :)</p>
+        <input type="submit" value="enviar"> 
+       </form>
+</body>
+</html>
